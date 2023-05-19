@@ -1,0 +1,131 @@
+<br>
+<section class="max-w-screen-xl mx-auto bg-gray-50 p-12 rounded-3xl my-8 shadow-lg">
+    <h2 class="font-bold text-3xl mb-4">Tags / {{ tagName }}</h2>
+    <hr
+        class="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 " />
+    <br>
+     {{!-- {{session_user_id}} --}}
+    {{#each posts as |post| }}
+
+    {{!-- Display POST Title --}}
+    <div class="flex">
+        <div>
+            {{!-- <div>
+                <img src="./../../img/profile-placeholder.png" alt="Profile Image"
+                    style="min-width:50px; max-width:100px">
+            </div> --}}
+            <div>
+                <figcaption class="flex items-center justify-center space-x-3">
+                    <img class="rounded-full w-12 h-12" src="../../{{post.user.user_img}}" alt="profile picture" />
+                </figcaption>
+                <div class="space-y-0.5 font-medium  text-center">
+                    <div>{{post.user.name}}</div>
+                    <div class="text-sm text-gray-500 ">{{format_date post.date_created}}</div>
+                </div>
+            </div>
+
+            {{!-- <div class="text-center">
+                <span class="text-blue-500">{{post.user.name}} </span>
+            </div>
+            <div class="text-center mt-1">
+                <span class="text-blue-500">{{format_date post.date_created}}</span>
+            </div> --}}
+        </div>
+        <div class="ml-6 w-full">
+            <div>
+                <h2 class="font-bold text-3xl pb-2">
+                    <a href="/posts/{{post.post_id}}">{{post.post_title}}</a>
+                </h2>
+            </div>
+            <div>
+                <p class="py-4">{{post.post_body}}</p>
+            </div>
+            <div class="grid grid-cols-5 content-evenly">
+                {{!-- Views --}}
+                <div class="flex gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <title>Views</title>
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <span class="text-blue-500">{{post.view_count}}</span>
+                </div>
+                {{!-- Tags --}}
+                <div class="flex gap-1">
+
+                    <a href="{{post.tag_id}}"
+                        class="bg-green-100 text-green-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md  mb-2">
+                        <svg class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path clip-rule="evenodd" fill-rule="evenodd"
+                                d="M4 2a2 2 0 00-2 2v11a3 3 0 106 0V4a2 2 0 00-2-2H4zm1 14a1 1 0 100-2 1 1 0 000 2zm5-1.757l4.9-4.9a2 2 0 000-2.828L13.485 5.1a2 2 0 00-2.828 0L10 5.757v8.486zM16 18H9.071l6-6H16a2 2 0 012 2v2a2 2 0 01-2 2z">
+                            </path>
+                        </svg>
+                        {{post.tag_name}}
+                    </a>
+                </div>
+                {{!-- Flag --}}
+                <div class="flex gap-1 hover:text-red-500">
+                    <button type="click" class="flag-post-btn" data-post-id="{{post.post_id}}">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <title>Flag as inappropriate</title>
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5"
+                                {{#if post.flag_count}} {{!-- fill="red" --}} 
+                                    stroke="red" 
+                                {{else}} {{!-- fill="none"--}} 
+                                    stroke="currentColor" 
+                                {{/if}} />
+                        </svg>
+                    </button>
+                    <span class="text-blue-500">{{post.flag_count}}</span>
+                </div>
+                {{!-- Delete --}}
+                    {{#if (eq post.user_id ../session_user_id)}}
+                   
+                    {{!-- {{post.post_id}} --}}
+                    <div class="flex gap-1 hover:text-red-500">
+                        <button type="click" class="post-btn-delete" data-post-id="{{post.post_id}}">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <title>Delete Post</title>
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" />
+                            </svg>
+                        </button>
+                    </div>
+                    {{!-- {{/if}} --}}
+                    {{else}}
+                    <div class="flex gap-1">
+                        <button type="click" style="pointer-events: none;">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="gray" class="w-6 h-6">
+                                <title>Delete Post</title>
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" />
+                            </svg>
+                        </button>
+                    </div>
+                {{/if}}
+                {{!-- answers --}}
+                <div class="flex gap-1 hover:text-blue-500">
+                    <a href="/posts/{{post.post_id}}">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6 answer-icon" data-answer-count="{{post.answer_count}}">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+                        </svg>
+                    </a>
+                    <span class="text-blue-500">{{post.answer_count}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    {{/each}}
+</section>

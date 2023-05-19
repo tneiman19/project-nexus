@@ -1,0 +1,87 @@
+[
+  {
+    "tag_name": "Java",
+    "tag_summary": "Java is a popular programming language known for its portability, performance, and security features. It is widely used for developing web, mobile, and desktop applications, as well as enterprise software.",
+    "tag_img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg"
+  },
+  {
+    "tag_name": "JavaScript",
+    "tag_summary": "JavaScript is a dynamic scripting language used to create interactive web pages and applications. It is commonly used for frontend web development, as well as server-side programming and game development.",
+    "tag_img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+  },
+  {
+    "tag_name": "Python",
+    "tag_summary": "Python is a high-level programming language known for its simplicity, readability, and versatility. It is widely used for scientific computing, data analysis, artificial intelligence, and web development.",
+    "tag_img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
+  },
+  {
+    "tag_name": "C#",
+    "tag_summary": "C# is an object-oriented programming language designed for building Windows applications, games, and web services. It is known for its performance, scalability, and ease of use.",
+    "tag_img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg"
+  },
+  {
+    "tag_name": "C++",
+    "tag_summary": "C++ is a general-purpose programming language used for developing applications ranging from system software to high-performance games. It is known for its speed, efficiency, and low-level control.",
+    "tag_img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg"
+  },
+  {
+    "tag_name": "Ruby",
+    "tag_summary": "Ruby is a dynamic, open-source programming language used for building web applications, automation scripts, and system utilities. It is known for its simplicity, readability, and expressive syntax.",
+    "tag_img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg"
+  },
+  {
+    "tag_name": "PHP",
+    "tag_summary": "PHP is a server-side scripting language used for creating dynamic web pages and web applications. It is widely used in web development, content management systems, and e-commerce platforms.",
+    "tag_img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg"
+  },
+  {
+    "tag_name": "Swift",
+    "tag_summary": "Swift is a powerful programming language used for developing iOS, macOS, watchOS, and tvOS applications. It is known for its speed, safety, and modern syntax.",
+    "tag_img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original-wordmark.svg"
+  },
+  {
+    "tag_name": "Kotlin",
+    "tag_summary": "Kotlin is a modern programming language used for developing Android apps, server-side applications, and web applications. It is known for its concise syntax, interoperability, and safety features.",
+    "tag_img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original-wordmark.svg"
+  },
+  {
+    "tag_name": "Objective-C",
+    "tag_summary": "Objective-C is a general-purpose, object-oriented programming language used primarily for developing macOS and iOS applications. It is known for its dynamic messaging system and support for legacy codebases.",
+    "tag_img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/objectivec/objectivec-plain.svg"
+  },
+  {
+    "tag_name": "Perl",
+    "tag_summary": "Perl is a high-level programming language used for system administration, network programming, and web development. It is known for its powerful text processing capabilities and flexibility.",
+    "tag_img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/perl/perl-original.svg"
+  },
+  {
+    "tag_name": "Rust",
+    "tag_summary": "Rust is a systems programming language designed for performance, safety, and concurrency. It is commonly used for building web browsers, operatingsystems, game engines, and other performance-critical software.",
+    "tag_img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg"
+  },
+  {
+    "tag_name": "Go",
+    "tag_summary": "Go is a programming language designed for building simple, efficient, and reliable software at scale. It is commonly used for building network and web services, cloud infrastructure, and command-line tools.",
+    "tag_img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"
+  },
+  {
+    "tag_name": "Scala",
+    "tag_summary": "Scala is a modern, multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way. It is commonly used for building scalable, distributed systems and data processing pipelines.",
+    "tag_img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-plain-wordmark.svg"
+  },
+  {
+    "tag_name": "Haskell",
+    "tag_summary": "Haskell is a purely functional programming language designed for building complex, high-performance software with strong static typing and advanced type inference. It is commonly used for building compilers, interpreters, and other performance-critical software.",
+    "tag_img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/haskell/haskell-original-wordmark.svg"
+  },
+  {
+    "tag_name": "Lua",
+    "tag_summary": "Lua is a lightweight, embeddable scripting language designed for extending and customizing other software. It is commonly used in game development, embedded systems, and other applications where a lightweight and flexible scripting language is required.",
+    "tag_img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-plain.svg"
+  },
+  {
+    "tag_name": "TypeScript",
+    "tag_summary": "TypeScript is a superset of JavaScript designed to add optional static typing, classes, and interfaces to the language. It is commonly used for building large-scale, complex web applications and libraries.",
+    "tag_img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+  }
+]

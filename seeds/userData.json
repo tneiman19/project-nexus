@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Rita",
+    "email": "rita@example.com",
+    "password": "password12345",
+    "user_img": "img/profile1.jpg"
+  },
+  {
+    "name": "John",
+    "email": "john@example.com",
+    "password": "password12345",
+    "user_img": "img/profile2.jpg"
+  },
+  {
+    "name": "Rachel",
+    "email": "rachel@example.com",
+    "password": "password12345",
+    "user_img": "img/profile3.jpg"
+  },
+  {
+    "name": "Aiden",
+    "email": "aiden@example.com",
+    "password": "password12345",
+    "user_img": "img/profile4.jpg"
+  },
+  {
+    "name": "Liam",
+    "email": "liam@example.com",
+    "password": "password12345",
+    "user_img": "img/profile5.jpg"
+  },
+  {
+    "name": "Sophia",
+    "email": "sophia@example.com",
+    "password": "password12345",
+    "user_img": "img/profile6.jpg"
+  },
+  {
+    "name": "Emma",
+    "email": "emma@example.com",
+    "password": "password12345",
+    "user_img": "img/profile7.jpg"
+  },
+  {
+    "name": "Noah",
+    "email": "noah@example.com",
+    "password": "password12345",
+    "user_img": "img/profile8.jpg"
+  },
+  {
+    "name": "Ethan",
+    "email": "ethan@example.com",
+    "password": "password12345",
+    "user_img": "img/profile9.jpg"
+  },
+  {
+    "name": "Olivia",
+    "email": "olivia@example.com",
+    "password": "password12345",
+    "user_img": "img/profile10.jpg"
+  },
+  {
+    "name": "Ava",
+    "email": "ava@example.com",
+    "password": "password12345",
+    "user_img": "img/profile11.jpg"
+  },
+  {
+    "name": "Mason",
+    "email": "mason@example.com",
+    "password": "password12345",
+    "user_img": "img/profile12.jpg"
+  },
+  {
+    "name": "Lucas",
+    "email": "lucas@example.com",
+    "password": "password12345",
+    "user_img": "img/profile13.jpg"
+  },
+  {
+    "name": "Logan",
+    "email": "logan@example.com",
+    "password": "password12345",
+    "user_img": "img/profile14.jpg"
+  },
+  {
+    "name": "Leah",
+    "email": "leah@example.com",
+    "password": "password12345",
+    "user_img": "img/profile15.jpg"
+  },
+  {
+    "name": "Emily",
+    "email": "emily@example.com",
+    "password": "password12345",
+    "user_img": "img/profile16.jpg"
+  },
+  {
+    "name": "Madison",
+    "email": "madison@example.com",
+    "password": "password12345",
+    "user_img": "img/profile17.jpg"
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "answer_body": "Thanks for sharing this helpful information!",
+    "user_id": 2,
+    "date_created": "2022-03-31T14:40:00.000Z",
+    "post_id": 1
+  },
+  {
+    "answer_body": "I've been looking for a good Java tutorial - this is really helpful!",
+    "user_id": 3,
+    "date_created": "2022-04-01T14:15:00.000Z",
+    "post_id": 1
+  },
+  {
+    "answer_body": "Have you tried using React for your projects?",
+    "user_id": 5,
+    "date_created": "2022-04-02T14:55:00.000Z",
+    "post_id": 2
+  },
+  {
+    "answer_body": "Vue.js is my favorite framework for building SPAs!",
+    "user_id": 6,
+    "date_created": "2022-04-02T19:15:00.000Z",
+    "post_id": 2
+  },
+  {
+    "answer_body": "Thanks for this tutorial on Django - I'm learning a lot!",
+    "user_id": 7,
+    "date_created": "2022-04-03T16:15:00.000Z",
+    "post_id": 3
+  },
+  {
+    "answer_body": "Have you tried using Flask for building APIs?",
+    "user_id": 8,
+    "date_created": "2022-04-04T14:15:00.000Z",
+    "post_id": 3
+  },
+  {
+    "answer_body": "I'm struggling with React Native - any tips?",
+    "user_id": 9,
+    "date_created": "2022-04-05T14:15:00.000Z",
+    "post_id": 4
+  },
+  {
+    "answer_body": "I've found that using Expo makes React Native development much easier!",
+    "user_id": 10,
+    "date_created": "2022-04-06T14:15:00.000Z",
+    "post_id": 4
+  },
+  {
+    "answer_body": "Thanks for the information about C# - I'm going to start learning it!",
+    "user_id": 11,
+    "date_created": "2022-04-07T14:15:00.000Z",
+    "post_id": 5
+  },
+  {
+    "answer_body": "I've been using Node.js for a while now and it's great!",
+    "user_id": 12,
+    "date_created": "2022-04-08T14:15:00.000Z",
+    "post_id": 5
+  },
+  {
+    "answer_body": "This tutorial on Python is really helpful - thanks!",
+    "user_id": 13,
+    "date_created": "2022-04-09T14:15:00.000Z",
+    "post_id": 6
+  },
+  {
+    "answer_body": "I'm interested in learning about machine learning - any recommendations?",
+    "user_id": 14,
+    "date_created": "2022-04-10T14:15:00.000Z",
+    "post_id": 6
+  },
+  {
+    "answer_body": "Great tutorial on Ruby on Rails - thanks for sharing!",
+    "user_id": 14,
+    "date_created": "2022-04-10T14:15:00.000Z",
+    "post_id": 6
+  },
+  {
+    "answer_body": "Great post! I learned a lot from it.",
+    "user_id": 1,
+    "date_created": "2022-03-31T14:40:00.000Z",
+    "post_id": 1
+  },
+  {
+    "answer_body": "I had the same issue and your solution worked perfectly! Thanks for sharing.",
+    "user_id": 2,
+    "date_created": "2022-03-30T10:12:00.000Z",
+    "post_id": 1
+  },
+  {
+    "answer_body": "Interesting perspective. I've found a different approach to be more effective, but it's always good to hear different ideas.",
+    "user_id": 3,
+    "date_created": "2022-03-28T16:25:00.000Z",
+    "post_id": 2
+  },
+  {
+    "answer_body": "I think your solution is overcomplicated. A simpler approach would be to just use X instead of Y.",
+    "user_id": 4,
+    "date_created": "2022-03-26T08:50:00.000Z",
+    "post_id": 2
+  },
+  {
+    "answer_body": "Thanks for the post, it was really helpful. I had been struggling with this issue for days!",
+    "user_id": 5,
+    "date_created": "2022-03-25T20:15:00.000Z",
+    "post_id": 3
+  },
+  {
+    "answer_body": "I think there's a mistake in your code example. You're missing a semicolon on line 8.",
+    "user_id": 6,
+    "date_created": "2022-03-24T11:30:00.000Z",
+    "post_id": 3
+  },
+  {
+    "answer_body": "Great post, very helpful!",
+    "user_id": 4,
+    "post_id": 1,
+    "date_created": "2022-04-01T10:20:00.000Z"
+  },
+  {
+    "answer_body": "I found this really informative, thanks for sharing.",
+    "user_id": 6,
+    "post_id": 1,
+    "date_created": "2022-04-02T15:30:00.000Z"
+  },
+  {
+    "answer_body": "Excellent explanation, this really helped me understand the concept better.",
+    "user_id": 7,
+    "post_id": 2,
+    "date_created": "2022-04-02T18:50:00.000Z"
+  },
+  {
+    "answer_body": "I've been struggling with this issue for a while, your solution worked perfectly! Thanks!",
+    "user_id": 2,
+    "post_id": 3,
+    "date_created": "2022-04-03T09:10:00.000Z"
+  },
+  {
+    "answer_body": "Great post, I really enjoyed reading it.",
+    "user_id": 9,
+    "post_id": 3,
+    "date_created": "2022-04-03T14:25:00.000Z"
+  },
+  {
+    "answer_body": "Your code worked perfectly, thank you so much for sharing!",
+    "user_id": 4,
+    "post_id": 4,
+    "date_created": "2022-04-04T11:45:00.000Z"
+  },
+  {
+    "answer_body": "This is exactly what I was looking for, thank you for sharing.",
+    "user_id": 10,
+    "post_id": 5,
+    "date_created": "2022-04-05T08:15:00.000Z"
+  },
+  {
+    "answer_body": "Thanks for the detailed explanation, this really helped me a lot!",
+    "user_id": 3,
+    "post_id": 6,
+    "date_created": "2022-04-05T14:20:00.000Z"
+  },
+  {
+    "answer_body": "This was very informative, thanks for sharing your knowledge!",
+    "user_id": 8,
+    "post_id": 7,
+    "date_created": "2022-04-06T09:30:00.000Z"
+  },
+  {
+    "answer_body": "Your solution worked perfectly, thank you so much for sharing!",
+    "user_id": 5,
+    "post_id": 8,
+    "date_created": "2022-04-06T16:50:00.000Z"
+  },
+  {
+    "answer_body": "This was a great read, thank you for taking the time to write it.",
+    "user_id": 1,
+    "post_id": 9,
+    "date_created": "2022-04-07T12:15:00.000Z"
+  },
+  {
+    "answer_body": "I've been struggling with this for a while, your post helped me solve the issue. Thank you!",
+    "user_id": 7,
+    "post_id": 10,
+    "date_created": "2022-04-08T10:40:00.000Z"
+  },
+  {
+    "answer_body": "This was really helpful, thanks for sharing your knowledge!",
+    "user_id": 3,
+    "post_id": 11,
+    "date_created": "2022-04-08T10:40:00.000Z"
+  },
+  {
+    "answer_body": "Great post, really helped me understand the basics of Java!",
+    "user_id": 6,
+    "date_created": "2022-03-31T14:45:00.000Z",
+    "post_id": 1
+  },
+  {
+    "answer_body": "I've been struggling with this same issue, thank you so much for the detailed explanation!",
+    "user_id": 9,
+    "date_created": "2022-03-31T14:50:00.000Z",
+    "post_id": 2
+  },
+  {
+    "answer_body": "I tried implementing this code, but I'm getting an error. Any idea what might be causing it?",
+    "user_id": 7,
+    "date_created": "2022-03-31T14:55:00.000Z",
+    "post_id": 3
+  },
+  {
+    "answer_body": "This is a really cool project, thanks for sharing your code!",
+    "user_id": 8,
+    "date_created": "2022-03-31T15:00:00.000Z",
+    "post_id": 4
+  },
+  {
+    "answer_body": "I think I'm missing a step, can you explain what the second argument in the function does?",
+    "user_id": 10,
+    "date_created": "2022-03-31T15:05:00.000Z",
+    "post_id": 5
+  },
+  {
+    "answer_body": "I had the same issue, but I was able to resolve it by updating my version of Node.js. Hope this helps!",
+    "user_id": 6,
+    "date_created": "2022-03-31T15:10:00.000Z",
+    "post_id": 6
+  },
+  {
+    "answer_body": "Thanks for the tip, I was struggling with this for hours!",
+    "user_id": 9,
+    "date_created": "2022-03-31T15:15:00.000Z",
+    "post_id": 7
+  },
+  {
+    "answer_body": "This is a great resource, thanks for sharing!",
+    "user_id": 7,
+    "date_created": "2022-03-31T15:20:00.000Z",
+    "post_id": 8
+  },
+  {
+    "answer_body": "I'm having some trouble understanding the logic behind this function. Can you walk me through it step by step?",
+    "user_id": 8,
+    "date_created": "2022-03-31T15:25:00.000Z",
+    "post_id": 9
+  },
+  {
+    "answer_body": "I can't believe I didn't know about this feature before, thanks for sharing!",
+    "user_id": 10,
+    "date_created": "2022-03-31T15:30:00.000Z",
+    "post_id": 10
+  },
+  {
+    "answer_body": "This is exactly what I was looking for, thanks for sharing!",
+    "user_id": 6,
+    "date_created": "2022-03-31T15:35:00.000Z",
+    "post_id": 11
+  },
+  {
+    "answer_body": "I'm having a similar issue, but I'm not sure if it's related to my code or my environment. Any suggestions?",
+    "user_id": 9,
+    "date_created": "2022-03-31T15:40:00.000Z",
+    "post_id": 11
+  }
+]

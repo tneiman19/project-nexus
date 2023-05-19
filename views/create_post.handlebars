@@ -1,0 +1,42 @@
+<section class="max-w-screen-xl mx-auto bg-gray-50 p-12 rounded-3xl my-8 shadow-lg">
+    <h1 class="font-bold text-3xl pb-2">Ask a Question</h1>
+    <p>If you have a programming-related question and want to ask it effectively,follow these steps:</p>
+    <form action="post" class="mt-4">
+        <hr class="mb-8">
+        <label for="post_title" class="font-bold text-1xl pb-2">Enter a title for your question:</label>
+        <p>Create a concise, one-line title that summarizes your problem.</p>
+        <input type="text"id="post_title" name="post_title" placeholder="type here" class="w-full p-2 rounded-lg shadow-md border text-gray-800 border-blue-500 placeholder:text-blue-500"/>
+        <div class="mt-4">
+            <label for="post_body" class="font-bold text-1xl pb-2">Enter your question:</label>
+            <ul>
+            <li>Describe your problem in detail. Be sure to provide enough information
+                so that others can understand the issue and offer helpful solutions.</li>
+            <li>Explain what you've already tried to solve the problem and what you
+                expected to happen. This will give others an idea of where you are in the
+                process and what steps they can suggest next.</li>
+            
+            <li>Review your question to ensure that it's clear and concise. Once you're
+                satisfied, post it to the site and wait for responses from the community.
+                Remember to engage with those who respond to your question, as this can
+                help clarify any misunderstandings and lead to a better solution.
+            </li>
+            </ul>
+            <textarea type="text" id="post_body" name="post_body" placeholder="type here" class="w-full p-8 rounded-lg shadow-md border text-gray-800 border-blue-500 placeholder:text-blue-500"></textarea>
+        </div>
+        <div class="mt-4">
+            <label for="post_tag" class="font-bold text-1xl pb-2">Select a tag:</label>
+            <p>Select a tag to add to your question, which helps categorize it and make it easier for others to find.</p>
+            <select id="tag-select" name="tag_id" class="w-50 p-1 rounded-lg shadow-md border text-gray-800 border-blue-500 placeholder:text-blue-500">
+                <option value="">--Select a tag--</option>
+                {{#each tags as |tag|}}
+                    <option value="{{tag.tag_id}}">{{tag.tag_name}}</option>
+                {{/each}}
+            </select>
+        </div>
+        <div style="display: flex; justify-content: flex-end;">
+            <button type="submit" id="buttonCreatePost" class="p-3 rounded-lg shadow-md text-slate-100 bg-blue-500 hover:bg-blue-400 transition duration-300 ease-in-out">Submit Question</button>
+        </div>
+    </form>
+</section>
+
+<script src="js/createPost.js"></script>

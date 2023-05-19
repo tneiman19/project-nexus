@@ -1,0 +1,14 @@
+:root {
+  --font-family: "Inter", sans-serif;
+  --teal: #00adb5;
+  --dark: #1e1e1e;
+  --white: #eeeeee;
+  --gray: #393e46;
+  --dark-gray: #222831;
+  --light-gray: #dcdcdc;
+  --orange: #d2691e;
+}
+
+/* main {
+  background-color: var(--gray);
+} */
